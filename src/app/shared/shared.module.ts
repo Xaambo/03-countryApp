@@ -1,3 +1,4 @@
+import { SearchBoxComponent } from './components/searchBox/searchBox.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomePageComponent } from './pages/homePage/homePage.component';
@@ -12,6 +13,7 @@ import { ContactPageComponent } from './pages/contactPage/contactPage.component'
     AboutPageComponent,
     ContactPageComponent,
     SidebarComponent,
+    SearchBoxComponent,
   ],
   imports: [CommonModule, RouterModule],
   exports: [
@@ -19,6 +21,7 @@ import { ContactPageComponent } from './pages/contactPage/contactPage.component'
     AboutPageComponent,
     ContactPageComponent,
     SidebarComponent,
+    SearchBoxComponent,
   ],
 })
 export class SharedModule {}

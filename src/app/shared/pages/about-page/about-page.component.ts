@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'shared-about-page',
   standalone: false,
-  templateUrl: './aboutPage.component.html',
+  templateUrl: './about-page.component.html',
   styles: [],
 })
 export class AboutPageComponent {}

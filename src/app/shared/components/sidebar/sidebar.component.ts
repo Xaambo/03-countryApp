@@ -4,6 +4,6 @@ import { Component } from '@angular/core';
   selector: 'shared-sidebar',
   standalone: false,
   templateUrl: './sidebar.component.html',
-  styleUrl: './sidebar.component.css',
+  styles: [],
 })
 export class SidebarComponent {}
